@@ -68,13 +68,13 @@ async def init():
     except:
         pass
     await Aditya.decorators()
-    LOGGER("BIKASH_PLAYER").info("Bikash Player Bot Started Successfully")
+    LOGGER("BIKASH_PLAYER").info("Alexa Player Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("BIKASH_PLAYER").info("Stopping Bikash Player Bot! GoodBye")
+    LOGGER("BIKASH_PLAYER").info("Stopping Alexa Player Bot! GoodBye")
 
 
 # Power By @BikashHalder & @AdityaHalder 
