@@ -27,7 +27,7 @@ async def stop_music(cli, message: Message, _, chat_id):
     await Aditya.stop_stream(chat_id)
     await set_loop(chat_id, 0)
     await message.reply_text(
-        "**❌ sᴛᴏᴘᴘᴇᴅ ❌ ...**".format(message.from_user.mention)
+        "**❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 ❌ ...**".format(message.from_user.mention)
     )
 
 
