@@ -25,7 +25,7 @@ async def pause_admin(cli, message: Message, _, chat_id):
     if not len(message.command) == 1:
         return await message.reply_text("**❌ 𝐄𝐫𝐫𝐨𝐫, 𝐖𝐫𝐨𝐧𝐠 𝐔𝐬𝐚𝐠𝐞 𝐎𝐟 𝐂𝐨𝐦𝐦𝐚𝐧𝐝❗...**")
     if not await is_music_playing(chat_id):
-        return await message.reply_text("**🔈𝐁𝐠𝐭 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐏𝐚𝐮𝐬𝐞𝐝 ✨ ...**")
+        return await message.reply_text("**🔈𝐀𝐥𝐞𝐱𝐚 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐏𝐚𝐮𝐬𝐞𝐝 ✨ ...**")
     await music_off(chat_id)
     await Aditya.pause_stream(chat_id)
     await message.reply_text(
