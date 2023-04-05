@@ -18,7 +18,7 @@ from modules.config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
 
 themes = [
 
-    "blue",
+    "gulabi",
 
 
 ]
