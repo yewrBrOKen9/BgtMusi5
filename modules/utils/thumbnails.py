@@ -17,21 +17,10 @@ from modules.config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
 
 
 themes = [
-    "bgreen",
+
     "blue",
-    "colorfull",
-    "dgreen",
-    "hgreen",
-    "lgreen",
-    "lyellow",
-    "orange",
-    "pink",
-    "purple",
-    "rainbow",
-    "red",
-    "sky",
-    "thumbnail",
-    "yellow",
+
+
 ]
 
 def changeImageSize(maxWidth, maxHeight, image):
